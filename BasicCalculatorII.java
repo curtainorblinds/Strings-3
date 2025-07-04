@@ -63,7 +63,7 @@ class BasicCalculatorII2 {
     /**
      * forward processing solution using tail concept where tail keeps track of just the
      * last calculated intermediate calculated value rather than the full result till that
-     * point.
+     * point. In case of multiply/division tail keeps track of calculation till previous plus/minus.
      *
      * TC: O(n) SC: O(1)
      */
